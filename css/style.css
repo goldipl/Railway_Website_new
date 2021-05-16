@@ -444,3 +444,20 @@ section p {
     background-color: rgb(142, 47, 47);
     color: #FFFFFF;
 }
+
+
+/* Google Map */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 100%;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 100%;
+}
