@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+/* === Navigation === */
+
+.nav {
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 6px 6px 9px 0 rgba(0, 0, 0, .1);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.0rem 2.0rem;
+    z-index: 999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.menuList {
+    display: flex;
+    align-items: center;
+}
+
+.menuList li {
+    padding: 1.0rem 1.0rem;
+    transition: 0.2s linear;
+}
+
+.menuList li li {
+    padding: 0.5rem 1.0rem;
+    transition: 0.2s linear;
+}
+
+.menuList li:hover {
+    background-color: #f4f4f4;
+}
+
+.menuListFirstLine {
+    border-left: 1px solid rgba(142, 47, 47, .8);
+}
+
+a.first {
+    font-weight: 500;
+}
+
+
+/* === menuListDrop === */
+
+.menuListDrop {
+    position: relative;
+}
+
+.menuListDrop-menu,
+.menuListRight {
+    position: absolute;
+    background: #FFFFFF;
+    width: 100%;
+    top: 55px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 3px 3px 9px 3px rgba(0, 0, 0, .1);
+    transition: all 0.4s linear;
+}
+
+.menuListRight {
+    top: 0;
+    left: 110%;
+}
+
+.menuListItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menuListDrop:hover .menuListDrop-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuListDrop-right:hover .menuListRight {
+    left: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuListDrop-menu.expand.long {
+    width: 260px;
+}
+
+.menuListDrop-menu.expand.middle {
+    width: 160px;
+}
+
+
+/* === Navigation Menu Button === */
+
+.menuButton {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menuButton__bars {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #000000;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-3px, 3px);
+    transform: rotate(-45deg) translate(-3px, 3px);
+}
+
+.open .bar2 {
+    display: none;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, 6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.fas.fa-angle-down {
+    margin-left: 8px;
+}
+
+@media (max-width: 1000px) {
+    .menuButton {
+        display: flex;
+    }
+    .nav .menuList {
+        position: absolute;
+        height: calc(100vh - 71px);
+        width: 100%;
+        top: 100%;
+        right: 0;
+        background: #FFFFFF;
+        display: block;
+        padding: 1.0rem;
+        line-height: 1.6rem;
+        overflow-y: auto;
+        transform: translateX(-100vw);
+        transition: 0.3s linear;
+        z-index: -1;
+    }
+    .menuList.open {
+        transform: translateX(0);
+    }
+    .menuList li {
+        margin: 15px 10px;
+    }
+    .menuList li a {
+        padding: 0 1rem;
+        display: block;
+        font-size: 1.3rem;
+    }
+    .menuList li:hover {
+        background-color: transparent;
+    }
+    .menuList .menuListDrop-menu,
+    .menuList .menuListRight {
+        position: static;
+        opacity: 1;
+        top: 4rem;
+        visibility: visible;
+        width: 100%;
+        max-height: 0;
+        transform: scaleY(0);
+        transform-origin: top;
+        overflow: hidden;
+        transition: all 0.2s linear;
+        box-shadow: none;
+    }
+    .expandList.open+.expand {
+        max-height: 100%;
+        transform: scaleY(1);
+    }
+    .expand li {
+        margin: 0;
+    }
+    .expand li a {
+        font-size: 1.1rem;
+        border-bottom: 1px dashed rgba(142, 47, 47, .8);
+        padding-bottom: 0.9rem;
+    }
+    .fas.fa-angle-right {
+        margin-left: 8px;
+    }
+    .menuListDrop-menu.expand.middle,
+    .menuListDrop-menu.expand.long {
+        width: 100%;
+    }
+    .menuListDrop-menu.expand,
+    .menuListRight.expand {
+        margin-top: 8px;
+    }
+    .menuList .menuListFirstLine:last-of-type {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* === Logo  === */
+
+.imglogo {
+    height: 54px;
+}
+
+@media (max-width: 1000px) {
+    .imglogo {
+        height: 42px;
+        margin-left: -24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .imglogo {
+        height: 38px;
+        margin-left: -24px;
+    }
+}
+
+@media (max-width: 340px) {
+    .imglogo {
+        height: 32px;
+        margin-left: -24px;
+    }
+    .menuList li a {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+}
+
+.headerBig {
+    height: 90vh;
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/Image01.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerLarge {
+    height: 50vh;
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/Image01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.h1OverImg {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 4.0rem;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    background-color: rgba(160, 160, 160, 0.25);
+    top: 50%;
+    left: 5%;
+    width: 30%;
+    transform: translate(10%, -50%);
+}
+
+h1.h1OverImgLarge {
+    top: 40%;
+    width: auto !important;
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    h1.h1OverImg {
+        font-size: 3.4rem;
+        width: 37%;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1.h1OverImg {
+        font-size: 2.5rem;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+}
+
+.whiteSection {
+    background-color: #fff;
+    color: black;
+}
+
+.colorSection {
+    background: linear-gradient(90deg, rgb(200, 200, 200), rgb(230, 230, 230));
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+section h1,
+section h2 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section p {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.button01 {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    margin: auto 0;
+    position: relative;
+    padding: 1.6rem 2.6rem;
+    width: 14.6rem;
+    margin: 1.2rem;
+    font-size: 1.6rem;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button01::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 0.3rem;
+    background-color: rgb(142, 47, 47);
+    transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -o-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+}
+
+.button01:hover::before {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    .button01 {
+        font-size: 1.3rem;
+        padding: 0.6rem 1.2rem;
+        width: 10.0rem;
+    }
+}
+
+.buttonSection {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: rgb(142, 47, 47);
+}
+
+.divBtn {
+    margin: auto 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.divBtn:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+    .buttonSection {
+        display: none;
+    }
+    .headerBig {
+        height: 100vh;
+    }
+}
+
+.bodyLock {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.footerSection {
+    background: none;
+    background-color: rgb(142, 47, 47);
+    color: #FFFFFF;
+}
