@@ -483,6 +483,9 @@ section p {
     .imgTextSection {
         flex-direction: column;
     }
+    .imgTextSection .imgTextSection__Text p {
+        text-align: center;
+    }
     h1.h1OverImg {
         font-size: 2.5rem;
     }
