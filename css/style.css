@@ -478,3 +478,24 @@ section p {
     height: 350px;
     width: 100%;
 }
+
+.imgTextSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin: 24px auto;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.imgTextSection .imgTextSection__Text p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imgTextSection:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
