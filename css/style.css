@@ -178,6 +178,230 @@ a.first {
     margin-left: 8px;
 }
 
+
+/* === Logo with Media Queries === */
+
+.imglogo {
+    height: 54px;
+}
+
+@media (max-width: 1000px) {
+    .imglogo {
+        height: 42px;
+        margin-left: -24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .imglogo {
+        height: 38px;
+        margin-left: -24px;
+    }
+}
+
+@media (max-width: 340px) {
+    .imglogo {
+        height: 32px;
+        margin-left: -24px;
+    }
+    .menuList li a {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+}
+
+.headerBig {
+    height: 90vh;
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerLarge {
+    height: 50vh;
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.h1OverImg {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 4.0rem;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-color: rgba(160, 160, 160, 0.25);
+    top: 50%;
+    left: 5%;
+    width: 30%;
+    transform: translate(10%, -50%);
+}
+
+h1.h1OverImgLarge {
+    top: 40%;
+    font-size: 3.0rem;
+    margin: 0 auto;
+    width: 80% !important;
+    background: none;
+}
+
+.whiteSection {
+    background-color: #fff;
+    color: black;
+}
+
+.colorSection {
+    background: linear-gradient(90deg, rgb(200, 200, 200), rgb(230, 230, 230));
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+section h1,
+section h2 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+section p {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.button01 {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    margin: auto 0;
+    position: relative;
+    padding: 1.0rem 2.6rem;
+    width: 14.6rem;
+    margin: 1.2rem;
+    font-size: 1.6rem;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button01::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 0.3rem;
+    background-color: rgb(142, 47, 47);
+    transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+    -o-transition: .7s cubic-bezier(0, 1.8, 1, 1);
+}
+
+.button01:hover::before {
+    right: 0;
+}
+
+.buttonSection {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: rgb(142, 47, 47);
+}
+
+.divBtn {
+    margin: auto 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.divBtn:hover {
+    transform: scale(1.2);
+}
+
+.bodyLock {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.footerSection {
+    background: none;
+    background-color: rgb(142, 47, 47);
+    color: #FFFFFF;
+}
+
+
+/* Google Map */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 100%;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 100%;
+}
+
+.imgTextSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin: 24px auto;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.imgTextSection .imgTextSection__Text p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imgTextSection:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.linkImgTextSection a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* ===== MEDIA QUERIES ===== */
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    h1.h1OverImg {
+        font-size: 3.4rem;
+        width: 37%;
+    }
+    h1.h1OverImgLarge {
+        font-size: 2.0rem;
+    }
+}
+
 @media (max-width: 1000px) {
     .menuButton {
         display: flex;
@@ -259,188 +483,12 @@ a.first {
     .imgTextSection {
         flex-direction: column;
     }
-}
-
-
-/* === Logo  === */
-
-.imglogo {
-    height: 54px;
-}
-
-@media (max-width: 1000px) {
-    .imglogo {
-        height: 42px;
-        margin-left: -24px;
-    }
-}
-
-@media (max-width: 375px) {
-    .imglogo {
-        height: 38px;
-        margin-left: -24px;
-    }
-}
-
-@media (max-width: 340px) {
-    .imglogo {
-        height: 32px;
-        margin-left: -24px;
-    }
-    .menuList li a {
-        font-size: 1.1rem;
-        line-height: 1.1rem;
-    }
-}
-
-.headerBig {
-    height: 90vh;
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.headerLarge {
-    height: 50vh;
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1.h1OverImg {
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 4.0rem;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    background-color: rgba(160, 160, 160, 0.25);
-    top: 50%;
-    left: 5%;
-    width: 30%;
-    transform: translate(10%, -50%);
-}
-
-h1.h1OverImgLarge {
-    top: 40%;
-    font-size: 3.0rem;
-    margin: 0 auto;
-    width: 80% !important;
-    background: none;
-}
-
-@media (min-width: 1001px) and (max-width: 1400px) {
-    h1.h1OverImg {
-        font-size: 3.4rem;
-        width: 37%;
-    }
-    h1.h1OverImgLarge {
-        font-size: 2.0rem;
-    }
-}
-
-@media (max-width: 1000px) {
     h1.h1OverImg {
         font-size: 2.5rem;
     }
     h1.h1OverImgLarge {
         font-size: 1.2rem;
     }
-}
-
-.whiteSection {
-    background-color: #fff;
-    color: black;
-}
-
-.colorSection {
-    background: linear-gradient(90deg, rgb(200, 200, 200), rgb(230, 230, 230));
-    color: black;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-section h1,
-section h2 {
-    width: 75%;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 24px;
-}
-
-section p {
-    width: 75%;
-    text-align: left;
-    margin: 0 auto;
-    padding: 24px 0;
-}
-
-.button01 {
-    display: block;
-    font-family: 'Oswald', sans-serif;
-    margin: auto 0;
-    position: relative;
-    padding: 1.0rem 2.6rem;
-    width: 14.6rem;
-    margin: 1.2rem;
-    font-size: 1.6rem;
-    border-style: none;
-    background-color: rgba(255, 255, 255, 0.6);
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000000;
-}
-
-.button01::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 0.3rem;
-    background-color: rgb(142, 47, 47);
-    transition: .7s cubic-bezier(0, 1.8, 1, 1);
-    -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
-    -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
-    -o-transition: .7s cubic-bezier(0, 1.8, 1, 1);
-}
-
-.button01:hover::before {
-    right: 0;
-}
-
-@media (max-width: 600px) {
-    .button01 {
-        font-size: 1.3rem;
-        padding: 0.6rem 1.2rem;
-        width: 10.0rem;
-    }
-}
-
-.buttonSection {
-    display: flex;
-    height: 10vh;
-    width: 100%;
-    justify-content: space-around;
-    color: #FFFFFF;
-    background-color: rgb(142, 47, 47);
-}
-
-.divBtn {
-    margin: auto 0;
-    font-size: 1.4rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.3s linear;
-}
-
-.divBtn:hover {
-    transform: scale(1.2);
 }
 
 @media (max-width: 600px) {
@@ -450,60 +498,9 @@ section p {
     .headerBig {
         height: 100vh;
     }
-}
-
-.bodyLock {
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
-.footerSection {
-    background: none;
-    background-color: rgb(142, 47, 47);
-    color: #FFFFFF;
-}
-
-
-/* Google Map */
-
-.mapouter {
-    position: relative;
-    text-align: right;
-    height: 350px;
-    width: 100%;
-}
-
-#gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 350px;
-    width: 100%;
-}
-
-.imgTextSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 80%;
-    margin: 24px auto;
-    transition: box-shadow 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.imgTextSection .imgTextSection__Text p {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.imgTextSection:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.linkImgTextSection a {
-    text-decoration: none;
-    color: #000000;
+    .button01 {
+        font-size: 1.3rem;
+        padding: 0.6rem 1.2rem;
+        width: 10.0rem;
+    }
 }
