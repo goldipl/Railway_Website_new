@@ -262,11 +262,6 @@ h1.h1OverImgLarge {
     color: black;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
 section h1,
 section h2 {
     width: 75%;
@@ -355,12 +350,6 @@ section p {
     right: 0;
 }
 
-.footerSection {
-    background: none;
-    background-color: #a01916;
-    color: #FFFFFF;
-}
-
 
 /* Google Map */
 
@@ -407,22 +396,40 @@ section p {
 
 /* ==== FOOTER ==== */
 
+footer {
+    text-align: center;
+}
+
+.footerSection {
+    background: none;
+    background-color: #a01916;
+    color: #FFFFFF;
+}
+
 .footerFlexSection {
     display: flex;
     justify-content: space-evenly;
+    background-color: #3e3d42;
 }
 
 .footerCopyright {
-    margin-bottom: 16px;
+    padding: 16px;
 }
 
 .footerFlexSection__One {
     display: flex;
     align-self: center;
+    padding: 20px;
 }
 
 .footerFlexSection__Two {
     font-size: 0.9rem;
+    padding: 20px;
+}
+
+.footerFlexSection__Two .footerp {
+    text-align: right;
+    margin-top: 24px;
 }
 
 .footerFlexSection__Two a {
@@ -545,8 +552,9 @@ section p {
     .footerFlexSection {
         flex-direction: column;
     }
-    .footerFlexSection__One {
-        margin-bottom: 16px;
+    .footerFlexSection__Two .footerp {
+        text-align: center;
+        margin-top: -16px;
     }
 }
 
