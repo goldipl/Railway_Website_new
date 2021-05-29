@@ -301,7 +301,7 @@ section p {
     right: -100%;
     width: 100%;
     height: 0.3rem;
-    background-color: rgb(142, 47, 47);
+    background-color: #a01916;
     transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
@@ -333,6 +333,16 @@ section p {
     transform: scale(1.2);
 }
 
+.buttonSection .divBtn::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    background-color: #a01916;
+}
+
 .bodyLock {
     overflow: hidden;
     position: fixed;
@@ -342,7 +352,7 @@ section p {
 
 .footerSection {
     background: none;
-    background-color: rgb(142, 47, 47);
+    background-color: #a01916;
     color: #FFFFFF;
 }
 
