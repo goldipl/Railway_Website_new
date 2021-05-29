@@ -438,7 +438,7 @@ section p {
 
 /* ===== MEDIA QUERIES ===== */
 
-@media (min-width: 1001px) and (max-width: 1400px) {
+@media (min-width: 1101px) and (max-width: 1400px) {
     h1.h1OverImg {
         font-size: 2.5rem;
         width: 37%;
@@ -448,7 +448,7 @@ section p {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .menuButton {
         display: flex;
     }
