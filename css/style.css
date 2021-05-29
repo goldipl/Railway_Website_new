@@ -245,11 +245,23 @@ h1.h1OverImg span {
 }
 
 h1.h1OverImgLarge {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    font-weight: 300;
+    color: #FFFFFF;
+    left: 5%;
+    transform: translate(10%, -50%);
     top: 40%;
     font-size: 3.0rem;
     margin: 0 auto;
     width: 80% !important;
     background: none;
+}
+
+h1.h1OverImgLarge span {
+    background-color: #a01916;
+    box-shadow: 0.5em 0 0 #a01916, -0.5em 0 0 #a01916;
+    line-height: 160%;
 }
 
 .whiteSection {
