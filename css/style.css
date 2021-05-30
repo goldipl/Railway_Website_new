@@ -370,11 +370,11 @@ section p {
 
 .button01 {
     display: block;
+    left: 50%;
+    transform: translate(-50%, 0);
     font-family: 'Oswald', sans-serif;
-    margin: auto 0;
     position: relative;
     padding: 1.0rem 2.6rem;
-    width: 14.6rem;
     margin: 1.2rem;
     font-size: 1.6rem;
     border-style: none;
@@ -383,6 +383,8 @@ section p {
     cursor: pointer;
     text-decoration: none;
     color: #000000;
+    border: 1px solid #a01916;
+    width: 194px;
 }
 
 .button01::before {
@@ -940,7 +942,7 @@ img {
     .button01 {
         font-size: 1.3rem;
         padding: 0.6rem 1.2rem;
-        width: 10.0rem;
+        width: 8.1rem;
     }
     .text_Img_Section .img_Section {
         width: 100%;
