@@ -250,6 +250,10 @@ a.first {
     background-size: cover;
 }
 
+.headerLarge00 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg);
+}
+
 .headerLarge01 {
     background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo02.jpg);
 }
