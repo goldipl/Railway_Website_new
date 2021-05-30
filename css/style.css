@@ -879,4 +879,7 @@ img {
     .peopleLabels>div {
         flex-basis: 100%;
     }
+    .management .strongName::after {
+        width: 80vw;
+    }
 }
