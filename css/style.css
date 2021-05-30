@@ -629,6 +629,27 @@ img {
 }
 
 
+/* === HISTORY === */
+
+#historia_firmy {
+    background: linear-gradient( rgba(199, 199, 199, 0.5) 100%, rgba(199, 199, 199, 0.5)100%), url("https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.historySection {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.historySection .historySection--col {
+    flex: 70%;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
@@ -755,6 +776,9 @@ img {
     }
     .containerLabels {
         width: 100%;
+    }
+    .historySection {
+        flex-direction: column;
     }
 }
 
