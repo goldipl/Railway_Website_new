@@ -693,6 +693,34 @@ img {
 }
 
 
+/* ==== MANAGEMENT ==== */
+
+.management .managementNormalName {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.management .normalName {
+    width: 60%;
+}
+
+.management .strongName {
+    font-weight: 500;
+    position: relative;
+}
+
+.management .strongName::after {
+    content: '';
+    display: block;
+    border: 0.5px solid #a01916;
+    width: 55vw;
+    margin-top: 10px;
+    left: 0;
+    position: absolute;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
