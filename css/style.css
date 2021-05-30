@@ -650,6 +650,49 @@ img {
 }
 
 
+/* Our offer section */
+
+.rightsmallpdiv {
+    display: block;
+    width: 40%;
+    margin-left: 50vw;
+    margin-bottom: -40px;
+}
+
+.peopleitem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fcfafb;
+}
+
+.peopleLabels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.peopleLabels>div {
+    flex-direction: column;
+    flex-basis: 20%;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 10px;
+}
+
+.peopleLabels_Text p {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.peopleLabels .peoplecontainerLabels_Img {
+    border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
@@ -780,6 +823,13 @@ img {
     .historySection {
         flex-direction: column;
     }
+    .rightsmallpdiv {
+        margin-left: 0;
+        width: 100%;
+    }
+    .peopleLabels>div {
+        flex-basis: 45%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -797,5 +847,8 @@ img {
     .text_Img_Section .img_Section {
         width: 100%;
         margin-left: 0;
+    }
+    .peopleLabels>div {
+        flex-basis: 100%;
     }
 }
