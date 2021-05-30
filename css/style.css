@@ -250,13 +250,51 @@ a.first {
     background-size: cover;
 }
 
-.headerLarge {
+.headerLarge01,
+.headerLarge02,
+.headerLarge03,
+.headerLarge04,
+.headerLarge05,
+.headerLarge06,
+.headerLarge07,
+.headerLarge08 {
     height: 60vh;
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.headerLarge01 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo02.jpg);
+}
+
+.headerLarge02 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo03.jpg);
+}
+
+.headerLarge03 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo04.jpg);
+}
+
+.headerLarge04 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo05.jpg);
+}
+
+.headerLarge05 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo06.jpg);
+}
+
+.headerLarge06 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo07.jpg);
+}
+
+.headerLarge07 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo08.jpg);
+}
+
+.headerLarge08 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/DSC00951.JPG);
 }
 
 h1.h1OverImg {
