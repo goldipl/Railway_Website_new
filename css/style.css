@@ -13,6 +13,13 @@ body {
     font-size: 18px;
 }
 
+.yearsimg {
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    width: 30%;
+}
+
 strong {
     font-weight: 600;
 }
@@ -248,6 +255,7 @@ a.first {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .headerLarge00 {
@@ -308,7 +316,7 @@ h1.h1OverImg {
     font-size: 3.5rem;
     font-weight: 300;
     color: #FFFFFF;
-    top: 55%;
+    top: 60%;
     left: 5%;
     width: 40%;
     transform: translate(10%, -50%);
