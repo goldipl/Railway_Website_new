@@ -635,7 +635,7 @@ img {
 
 #historia_firmy,
 #nagrody_certyfikaty {
-    background: linear-gradient( rgba(199, 199, 199, 0.5) 100%, rgba(199, 199, 199, 0.5)100%), url("https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg");
+    background: linear-gradient( rgba(199, 199, 199, 0.8) 100%, rgba(199, 199, 199, 0.8)100%), url("https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -677,12 +677,18 @@ img {
     margin: 40px auto;
 }
 
-.peopleLabels>div {
+.peopleLabels .peopleitem {
     flex-direction: column;
     flex-basis: 20%;
     margin: 2%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.peopleLabels .peopleitem:hover {
+    border: 2px solid #a01916;
 }
 
 .peopleLabels_Text p {
@@ -693,6 +699,13 @@ img {
 
 .peopleLabels .peoplecontainerLabels_Img {
     border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+    justify-content: center;
+    display: flex;
+}
+
+.peopleLabels a {
+    text-decoration: none;
+    color: #000000;
 }
 
 
@@ -721,6 +734,10 @@ img {
     margin-top: 10px;
     left: 0;
     position: absolute;
+}
+
+#zarzad .h1left {
+    margin-bottom: 32px;
 }
 
 
