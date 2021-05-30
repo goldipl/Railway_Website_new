@@ -481,6 +481,51 @@ footer {
 }
 
 
+/* ===== REFERENCES CSS ===== */
+
+.colP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rowP {
+    flex-basis: 20%;
+}
+
+.contCert {
+    display: block;
+    width: 50vh;
+    height: 38vh;
+    margin: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+img {
+    transition: all .2s ease-in-out;
+}
+
+.contCert img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .contCert {
+        width: 45vh;
+        height: 35vh;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
