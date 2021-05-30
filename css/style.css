@@ -624,6 +624,10 @@ img {
     border-radius: 15px;
 }
 
+.containerLabels_Text p {
+    width: 100%;
+}
+
 
 /* ===== MEDIA QUERIES ===== */
 
