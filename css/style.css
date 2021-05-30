@@ -358,7 +358,7 @@ section h2 {
 }
 
 section {
-    padding: 12px 0;
+    padding: 40px 0;
 }
 
 section p {
@@ -410,6 +410,7 @@ section p {
     justify-content: space-around;
     color: #FFFFFF;
     background-color: #3e3d42;
+    padding: 0;
 }
 
 .divBtn {
