@@ -599,6 +599,32 @@ img {
 }
 
 
+/* ===== CONTAINER LABELS ===== */
+
+.citem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fcfafb;
+}
+
+.containerLabels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.containerLabels>div {
+    flex-basis: 46%;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
@@ -719,6 +745,12 @@ img {
     .text_Img_Section .img_Section {
         width: 60%;
         margin-left: 0;
+    }
+    .citem {
+        flex-basis: 100% !important;
+    }
+    .containerLabels {
+        width: 100%;
     }
 }
 
