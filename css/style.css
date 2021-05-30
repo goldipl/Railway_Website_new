@@ -949,9 +949,12 @@ img {
         margin-left: 0;
     }
     .peopleLabels>div {
-        flex-basis: 100%;
+        flex-basis: 100% !important;
     }
     .management .strongName::after {
         width: 80vw;
+    }
+    .management .managementNormalName {
+        width: 90%;
     }
 }
