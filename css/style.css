@@ -256,6 +256,7 @@ a.first {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 h1.h1OverImg {
@@ -282,7 +283,7 @@ h1.h1OverImgLarge {
     color: #FFFFFF;
     left: 5%;
     transform: translate(10%, -50%);
-    top: 40%;
+    bottom: 24px;
     font-size: 3.0rem;
     margin: 0 auto;
     width: 80% !important;
