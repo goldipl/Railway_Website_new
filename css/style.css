@@ -900,6 +900,9 @@ img {
     .historySection {
         width: 100%;
     }
+    .divBtn {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 800px) {
