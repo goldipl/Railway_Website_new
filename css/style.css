@@ -817,6 +817,9 @@ img {
     .divBtn {
         font-size: 1.2rem;
     }
+    h1.h1OverImgLarge span {
+        line-height: 160%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -905,7 +908,6 @@ img {
     }
     h1.h1OverImg {
         font-size: 1.8rem;
-        width: 60%;
     }
     h1.h1OverImgLarge {
         font-size: 1.2rem;
@@ -947,21 +949,33 @@ img {
     .divBtn {
         font-size: 1.2rem;
     }
-}
-
-@media (max-width: 800px) {
-    .prizeLabels>div {
-        flex-basis: 100%;
+    h1.h1OverImgLarge span {
+        line-height: 180%;
+    }
+    h1.h1OverImg span {
+        line-height: 160%;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
     .buttonSection {
         display: none;
     }
     .headerBig {
         height: 100vh;
     }
+}
+
+@media (max-width: 800px) {
+    .prizeLabels>div {
+        flex-basis: 100%;
+    }
+    h1.h1OverImg {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
     .button01 {
         font-size: 1.3rem;
         padding: 0.6rem 1.2rem;
