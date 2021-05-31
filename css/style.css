@@ -1037,4 +1037,7 @@ img {
         flex-basis: 100% !important;
         flex-grow: 1;
     }
+    .footerFlexSection {
+        padding: 0;
+    }
 }
