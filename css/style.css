@@ -721,6 +721,7 @@ img {
     margin-bottom: 10px;
     border: 2px solid rgba(255, 255, 255, 0);
     cursor: pointer;
+    flex-grow: 1;
 }
 
 .peopleLabels .peopleitem:hover {
@@ -960,6 +961,7 @@ img {
     }
     .peopleLabels>div {
         flex-basis: 45%;
+        flex-grow: 1;
     }
     .historySection {
         width: 100%;
@@ -975,12 +977,17 @@ img {
     }
 }
 
-@media (max-width: 850px) {
-    .buttonSection {
-        display: none;
+@media (min-width: 850px) and (max-width: 1099px) {
+    .peopleLabels {
+        width: 100%;
+        flex-grow: 1;
     }
-    .headerBig {
-        height: 100vh;
+}
+
+@media (max-width: 849px) {
+    .peopleLabels>div {
+        flex-basis: 40% !important;
+        flex-grow: 1;
     }
 }
 
@@ -1013,13 +1020,14 @@ img {
         width: 100%;
         margin-left: 0;
     }
-    .peopleLabels>div {
-        flex-basis: 100% !important;
-    }
     .management .strongName::after {
         width: 80vw;
     }
     .management .managementNormalName {
         width: 90%;
+    }
+    .peopleLabels>div {
+        flex-basis: 100% !important;
+        flex-grow: 1;
     }
 }
