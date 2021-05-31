@@ -333,7 +333,7 @@ h1.h1OverImg {
 
 h1.h1OverImg span {
     background-color: #a01916;
-    line-height: 130%;
+    line-height: 120%;
 }
 
 h1.h1OverImgLarge {
@@ -343,7 +343,7 @@ h1.h1OverImgLarge {
     color: #FFFFFF;
     left: 5%;
     transform: translate(10%, -50%);
-    bottom: 24px;
+    bottom: 0;
     font-size: 3.0rem;
     margin: 0 auto;
     width: 80% !important;
@@ -353,7 +353,7 @@ h1.h1OverImgLarge {
 h1.h1OverImgLarge span {
     background-color: #a01916;
     box-shadow: 0.5em 0 0 #a01916, -0.5em 0 0 #a01916;
-    line-height: 130%;
+    line-height: 120%;
 }
 
 .whiteSection {
