@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Medium.ttf');
+    src: url('./fonts/HelveticaNowDisplay-Medium.eot');
     src: local('Helvetica Now Display Medium'), local('HelveticaNowDisplay-Medium'), url('HelveticaNowDisplay-Medium.eot?#iefix') format('embedded-opentype'), url('HelveticaNowDisplay-Medium.woff2') format('woff2'), url('HelveticaNowDisplay-Medium.woff') format('woff'), url('HelveticaNowDisplay-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Bold.ttf');
+    src: url('./fonts/HelveticaNowDisplay-Bold.eot');
     src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'), url('HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('HelveticaNowDisplay-Bold.woff2') format('woff2'), url('HelveticaNowDisplay-Bold.woff') format('woff'), url('HelveticaNowDisplay-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
