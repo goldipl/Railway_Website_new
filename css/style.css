@@ -733,9 +733,22 @@ img {
 }
 
 .peopleLabels .peoplecontainerLabels_Img {
-    border-bottom: 1px solid rgba(155, 155, 155, 0.5);
     justify-content: center;
     display: flex;
+    position: relative;
+}
+
+.peopleLabels .peoplecontainerLabels_Img::after {
+    content: "";
+    border: 1px solid rgba(155, 155, 155, 0.5);
+    display: block;
+    width: 80%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 10px;
+    position: absolute;
+    padding: 0;
 }
 
 .peopleLabels a {
