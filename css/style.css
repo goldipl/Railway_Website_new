@@ -557,8 +557,9 @@ footer {
 
 .footerFlexSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #3e3d42;
+    padding: 0 10%;
 }
 
 .footerCopyright {
@@ -936,13 +937,6 @@ img {
     h1.h1OverImgLarge {
         font-size: 1.2rem;
     }
-    .footerFlexSection {
-        flex-direction: column;
-    }
-    .footerFlexSection__Two .footerp {
-        text-align: center;
-        margin-top: -16px;
-    }
     .text_Img_Section {
         flex-direction: column;
         width: 90%;
@@ -996,6 +990,16 @@ img {
     }
     h1.h1OverImg {
         width: 60%;
+    }
+}
+
+@media (max-width: 790px) {
+    .footerFlexSection {
+        flex-direction: column;
+    }
+    .footerFlexSection__Two .footerp {
+        text-align: center;
+        margin-top: -16px;
     }
 }
 
