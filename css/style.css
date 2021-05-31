@@ -1,35 +1,3 @@
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Medium.eot');
-    src: local('Helvetica Now Display Medium'), local('HelveticaNowDisplay-Medium'), url('HelveticaNowDisplay-Medium.eot?#iefix') format('embedded-opentype'), url('HelveticaNowDisplay-Medium.woff2') format('woff2'), url('HelveticaNowDisplay-Medium.woff') format('woff'), url('HelveticaNowDisplay-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Bold.eot');
-    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'), url('HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('HelveticaNowDisplay-Bold.woff2') format('woff2'), url('HelveticaNowDisplay-Bold.woff') format('woff'), url('HelveticaNowDisplay-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibri';
-    src: url('./fonts/Calibri-Light.ttf');
-    src: local('Calibri Light'), local('Calibri-Light'), url('Calibri-Light.eot?#iefix') format('embedded-opentype'), url('Calibri-Light.woff2') format('woff2'), url('Calibri-Light.woff') format('woff'), url('Calibri-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibri';
-    src: url('./fonts/Calibri-Bold.ttf');
-    src: local('Calibri Bold'), local('Calibri-Bold'), url('Calibri-Bold.eot?#iefix') format('embedded-opentype'), url('Calibri-Bold') format('woff2'), url('Calibri-Bold.woff') format('woff'), url('Calibri-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -38,11 +6,11 @@
 }
 
 body {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: #FFFFFF;
     color: #000000;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .yearsimg {
@@ -57,15 +25,11 @@ strong {
 }
 
 h1 {
-    font-family: 'Helvetica Now Display', sans-serif;
     font-size: 2.0rem;
-    font-weight: 400;
 }
 
 h2 {
-    font-family: 'Helvetica Now Display', sans-serif;
     font-size: 1.4rem;
-    font-weight: 400;
 }
 
 .p01 {
@@ -108,8 +72,6 @@ h2 {
 /* === Navigation === */
 
 .nav {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
     background-color: #FFFFFF;
     position: relative;
     box-shadow: 6px 6px 9px 0 rgba(0, 0, 0, .1);
@@ -349,10 +311,10 @@ a.first {
 }
 
 h1.h1OverImg {
-    font-family: 'Helvetica Now Display', sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     font-size: 3.5rem;
-    font-weight: 500;
+    font-weight: 300;
     color: #FFFFFF;
     top: 60%;
     left: 5%;
@@ -362,13 +324,13 @@ h1.h1OverImg {
 
 h1.h1OverImg span {
     background-color: #a01916;
-    line-height: 130%;
+    line-height: 160%;
 }
 
 h1.h1OverImgLarge {
-    font-family: 'Helvetica Now Display', sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    font-weight: 500;
+    font-weight: 300;
     color: #FFFFFF;
     left: 5%;
     transform: translate(10%, -50%);
@@ -418,7 +380,7 @@ section p {
     display: block;
     left: 50%;
     transform: translate(-50%, 0);
-    font-family: 'Helvetica Now Display', sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: relative;
     padding: 1.0rem 2.6rem;
     margin: 1.2rem;
@@ -463,7 +425,7 @@ section p {
 
 .divBtn {
     margin: auto 0;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s linear;
@@ -842,7 +804,7 @@ img {
         font-size: 2.0rem;
     }
     .divBtn {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -972,7 +934,7 @@ img {
         width: 100%;
     }
     .divBtn {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
