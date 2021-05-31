@@ -993,6 +993,9 @@ img {
     .buttonSection {
         display: none;
     }
+    .headerBig {
+        height: 100vh;
+    }
 }
 
 @media (max-width: 800px) {
