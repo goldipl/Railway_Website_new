@@ -580,6 +580,7 @@ footer {
 .footerFlexSection__Two .footerp {
     text-align: right;
     margin-top: 24px;
+    line-height: 150%;
 }
 
 .footerFlexSection__Two a {
