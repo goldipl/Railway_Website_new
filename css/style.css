@@ -700,6 +700,10 @@ img {
     flex: 70%;
 }
 
+.historySection .historySection--col p {
+    width: 90%;
+}
+
 
 /* Our offer section */
 
