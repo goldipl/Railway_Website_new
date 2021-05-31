@@ -990,6 +990,9 @@ img {
         flex-basis: 40% !important;
         flex-grow: 1;
     }
+    .buttonSection {
+        display: none;
+    }
 }
 
 @media (max-width: 800px) {
