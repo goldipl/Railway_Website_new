@@ -303,6 +303,14 @@ a.first {
     background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo09.jpg);
 }
 
+.headerLarge09 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo10.jpg);
+}
+
+.headerLarge10 {
+    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo11.jpg);
+}
+
 .headerLarge00,
 .headerLarge01,
 .headerLarge02,
@@ -311,7 +319,9 @@ a.first {
 .headerLarge05,
 .headerLarge06,
 .headerLarge07,
-.headerLarge08 {
+.headerLarge08,
+.headerLarge09,
+.headerLarge10 {
     height: 60vh;
     background-position: center center;
     background-repeat: no-repeat;
