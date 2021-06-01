@@ -260,7 +260,7 @@ a.first {
 
 .headerBig {
     height: 90vh;
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg);
+    background: url(/img/tlo01.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
