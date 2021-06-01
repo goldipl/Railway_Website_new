@@ -664,6 +664,10 @@ img {
     cursor: pointer;
 }
 
+.contCert:hover {
+    border: 3px solid #a01916;
+}
+
 @media (max-width:500px) {
     .contCert {
         width: 45vh;
