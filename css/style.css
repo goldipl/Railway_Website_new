@@ -260,7 +260,7 @@ a.first {
 
 .headerBig {
     height: 90vh;
-    background: url(/img/tlo01.jpg);
+    background: url(../img/tlo01.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,47 +268,55 @@ a.first {
 }
 
 .headerLarge00 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg);
+    background: url(../img/tlo01.jpg);
 }
 
 .headerLarge01 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo02.jpg);
+    background: url(../img/tlo02.jpg);
 }
 
 .headerLarge02 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo03.jpg);
+    background: url(../img/tlo03.jpg);
 }
 
 .headerLarge03 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo04.jpg);
+    background: url(../img/tlo04.jpg);
 }
 
 .headerLarge04 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo05.jpg);
+    background: url(../img/tlo05.jpg);
 }
 
 .headerLarge05 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo06.jpg);
+    background: url(../img/tlo06.jpg);
 }
 
 .headerLarge06 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo07.jpg);
+    background: url(../img/tlo07.jpg);
 }
 
 .headerLarge07 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo08.jpg);
+    background: url(../img/tlo08.jpg);
 }
 
 .headerLarge08 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo09.jpg);
+    background: url(../img/tlo09.jpg);
 }
 
 .headerLarge09 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo10.jpg);
+    background: url(../img/tlo10.jpg);
 }
 
 .headerLarge10 {
-    background: url(https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo11.png);
+    background: url(../img/tlo11.png);
+}
+
+.headerLarge11 {
+    background: url(../img/tlo12.jpg);
+}
+
+.headerLarge12 {
+    background: url(../img/tlo13.jpg);
 }
 
 .headerLarge00,
@@ -321,7 +329,9 @@ a.first {
 .headerLarge07,
 .headerLarge08,
 .headerLarge09,
-.headerLarge10 {
+.headerLarge10,
+.headerLarge11,
+.headerLarge12 {
     height: 60vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -668,7 +678,7 @@ img {
 
 #historia_firmy,
 #nagrody_certyfikaty {
-    background: linear-gradient( rgba(199, 199, 199, 0.8) 100%, rgba(199, 199, 199, 0.8)100%), url("https://raw.githubusercontent.com/goldipl/Railway_Website_new/master/img/tlo01.jpg");
+    background: url("../img/tlo01szare.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
