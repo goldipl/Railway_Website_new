@@ -459,7 +459,7 @@ section p {
     margin: auto 0;
     font-size: 1.4rem;
     font-weight: 500;
-    cursor: pointer;
+    cursor: default;
     transition: 0.3s linear;
 }
 
