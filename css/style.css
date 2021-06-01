@@ -1065,4 +1065,7 @@ img {
     .footerFlexSection {
         padding: 0;
     }
+    h1.h1OverImg span {
+        line-height: 180%;
+    }
 }
