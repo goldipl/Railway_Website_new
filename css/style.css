@@ -92,6 +92,7 @@ h2 {
     justify-content: space-between;
     padding: 1.0rem 2.0rem;
     z-index: 999;
+    line-height: 100%;
 }
 
 .nav a {
