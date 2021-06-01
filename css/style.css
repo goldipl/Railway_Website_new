@@ -849,6 +849,13 @@ img {
 }
 
 
+/* ==== JOB SECTION ==== */
+
+.text_job_Section {
+    padding-top: 24px;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
