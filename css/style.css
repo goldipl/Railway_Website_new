@@ -645,8 +645,8 @@ footer {
 
 .contCert {
     display: block;
-    width: 50vh;
-    height: 38vh;
+    width: 36vh;
+    height: 50vh;
     margin: 20px;
     border: 1px solid black;
     overflow: hidden;
@@ -673,6 +673,7 @@ img {
 
 .centered {
     text-align: center;
+    height: 6rem;
 }
 
 
