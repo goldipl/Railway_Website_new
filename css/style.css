@@ -427,7 +427,27 @@ section p {
     width: 202px;
 }
 
-.button01::before {
+.button02 {
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    padding: 1.0rem 2.1rem;
+    margin: 1.2rem;
+    font-size: 1.6rem;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #a01916;
+    width: 202px;
+}
+
+.button01::before,
+.button02::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -441,7 +461,8 @@ section p {
     -o-transition: .7s cubic-bezier(0, 1.8, 1, 1);
 }
 
-.button01:hover::before {
+.button01:hover::before,
+.button02:hover::before {
     right: 0;
 }
 
