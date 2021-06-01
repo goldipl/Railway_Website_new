@@ -872,6 +872,11 @@ img {
     margin-top: auto;
 }
 
+.prizeLabels .prizeLabels_Text_p {
+    font-size: 15px;
+    line-height: 160%;
+}
+
 
 /* ==== CONTACT ==== */
 
