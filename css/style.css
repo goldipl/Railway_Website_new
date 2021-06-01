@@ -842,6 +842,13 @@ img {
 }
 
 
+/* ==== CONTACT ==== */
+
+.contactp {
+    line-height: 150%;
+}
+
+
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1101px) and (max-width: 1400px) {
