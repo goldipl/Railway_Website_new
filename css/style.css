@@ -716,6 +716,11 @@ img {
     background-size: cover;
 }
 
+#historia_firmy {
+    font-size: 16px;
+    line-height: 180%;
+}
+
 .historySection {
     display: flex;
     flex-direction: row;
@@ -729,6 +734,13 @@ img {
 
 .historySection .historySection--col p {
     width: 90%;
+}
+
+.historySection .historySection--col p {
+    width: 100%;
+    padding: 12px 0;
+    padding-right: 0px;
+    padding-right: 40px;
 }
 
 
