@@ -408,6 +408,16 @@ section p {
     padding: 12px;
 }
 
+.lispan::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    background-color: #a01916;
+}
+
 .button01 {
     display: block;
     left: 50%;
