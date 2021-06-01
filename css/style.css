@@ -804,6 +804,10 @@ img {
 
 /* ==== MANAGEMENT ==== */
 
+.management {
+    margin-left: 20%;
+}
+
 .management .managementNormalName {
     display: flex;
     width: 75%;
@@ -1037,6 +1041,9 @@ img {
     }
     h1.h1OverImg span {
         line-height: 160%;
+    }
+    .management {
+        margin-left: 0;
     }
 }
 
