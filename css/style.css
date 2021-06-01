@@ -738,8 +738,6 @@ img {
 
 .historySection .historySection--col p {
     width: 100%;
-    padding: 12px 0;
-    padding-right: 0px;
     padding-right: 40px;
 }
 
@@ -1056,6 +1054,10 @@ img {
     }
     .management {
         margin-left: 0;
+    }
+    .historySection .historySection--col p {
+        width: 90%;
+        padding-right: 0;
     }
 }
 
