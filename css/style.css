@@ -57,25 +57,25 @@ h2 {
 }
 
 .h1left::after {
-    content: '';
     display: block;
-    border: 2px solid #a01916;
+    content: '';
     width: 100px;
-    margin-top: 10px;
-    left: 0;
+    height: 3px;
+    background: #a01916;
     position: absolute;
-    padding: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .h1right::after {
-    content: '';
     display: block;
-    border: 2px solid #a01916;
+    content: '';
     width: 100px;
-    margin-top: 10px;
-    right: 0;
+    height: 3px;
+    background: #a01916;
     position: absolute;
-    padding: 0;
+    bottom: 0;
+    left: 0;
 }
 
 
