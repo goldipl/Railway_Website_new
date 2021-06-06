@@ -417,6 +417,10 @@ section p {
     padding: 12px;
 }
 
+.referencesp {
+    margin-top: 10px;
+}
+
 .lispan::before {
     content: "";
     display: inline-block;
