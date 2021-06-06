@@ -50,13 +50,21 @@ h2 {
     padding-bottom: 20px;
 }
 
+.h2left {
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
 .h1right {
     text-align: right;
     position: relative;
     padding-bottom: 20px;
 }
 
-.h1left::after {
+.h1left::after,
+.h2left::after {
     display: block;
     content: '';
     width: 100px;
