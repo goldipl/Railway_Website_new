@@ -2,7 +2,7 @@ const menuButton = document.querySelector(".menuButton");
 const menuItems = document.querySelector(".menuList");
 const expandListButton = document.querySelectorAll(".expandList");
 // const bodyTag = document.querySelector("body");
-const anchorButton = document.querySelector(".menuListAnchorClose");
+const anchorButton = document.querySelectorAll(".menuListAnchorClose");
 
 // Opening and closing hamburger menu
 menuButton.addEventListener("click", () => {
@@ -19,7 +19,11 @@ expandListButton.forEach((button) => {
 });
 
 // Closing hamburger menu after clicking anchor href link
-anchorButton.addEventListener("click", () => {
-    menuButton.classList.remove("open");
-    menuItems.classList.remove("open");
+
+
+anchorButton.forEach((button) => {
+    button.addEventListener("click", () => {
+        menuButton.classList.remove("open");
+        menuItems.classList.remove("open");
+    });
 });
