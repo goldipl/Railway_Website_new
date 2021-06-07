@@ -91,7 +91,7 @@ h2 {
 
 .nav {
     background-color: #FFFFFF;
-    position: relative;
+    position: fixed;
     box-shadow: 6px 6px 9px 0 rgba(0, 0, 0, .1);
     width: 100%;
     margin: auto;
@@ -507,6 +507,7 @@ section p {
     transition: 0.3s linear;
 }
 
+
 /* .divBtn:hover {
     transform: scale(1.2);
 } */
@@ -526,6 +527,15 @@ section p {
     position: fixed;
     left: 0;
     right: 0;
+}
+
+
+/* anchor minus 40px - go to section */
+
+.anchor:before {
+    content: "";
+    display: block;
+    height: 40px;
 }
 
 
