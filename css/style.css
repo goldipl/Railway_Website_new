@@ -538,6 +538,16 @@ section p {
     height: 40px;
 }
 
+#onas::after,
+#co_nas_wyroznia::after,
+#historia_firmy::after,
+#kadra::after,
+#nagrody::after {
+    content: "";
+    display: block;
+    height: 40px;
+}
+
 
 /* Img Text Section */
 
