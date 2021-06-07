@@ -1093,6 +1093,9 @@ img {
     .management .managementNormalName {
         width: 90%;
     }
+    .nav {
+        padding: 1.0rem 2.0rem;
+    }
 }
 
 @media (min-width: 850px) and (max-width: 1099px) {
