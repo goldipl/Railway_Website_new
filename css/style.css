@@ -507,9 +507,9 @@ section p {
     transition: 0.3s linear;
 }
 
-.divBtn:hover {
+/* .divBtn:hover {
     transform: scale(1.2);
-}
+} */
 
 .buttonSection .divBtn::before {
     content: "";
