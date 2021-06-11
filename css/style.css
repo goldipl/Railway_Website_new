@@ -912,7 +912,7 @@ img {
 }
 
 .prizeLabels .prizecontainerLabels_Img {
-    border-top: 2px solid #a01916;
+    border-top: 2px solid rgba(155, 155, 155, 0.5);
     padding-top: 20px;
     margin-top: auto;
     height: 170px;
