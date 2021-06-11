@@ -363,8 +363,9 @@ h1.h1OverImg {
 
 h1.h1OverImg span {
     background-color: #a01916;
+    box-shadow: 0.5em 0 0 #a01916, -0.5em 0 0 #a01916;
     line-height: 145%;
-    padding: 5px 0;
+    padding: 5px;
 }
 
 h1.h1OverImgLarge {
