@@ -827,8 +827,7 @@ img {
 
 .peopleLabels .peoplecontainerLabels_Img::after {
     content: "";
-    border: 1px solid rgba(155, 155, 155, 0.5);
-    display: block;
+    border-bottom: 2px solid rgba(155, 155, 155, 0.5);
     width: 80%;
     bottom: 0;
     left: 50%;
