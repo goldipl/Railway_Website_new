@@ -350,6 +350,7 @@ a.first {
 }
 
 h1.h1OverImg {
+    font-family: sans-serif;
     position: absolute;
     font-size: 3.0rem;
     font-weight: 300;
@@ -368,6 +369,7 @@ h1.h1OverImg span {
 }
 
 h1.h1OverImgLarge {
+    font-family: sans-serif;
     position: absolute;
     font-weight: 300;
     color: #FFFFFF;
