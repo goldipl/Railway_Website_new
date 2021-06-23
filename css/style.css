@@ -350,7 +350,6 @@ a.first {
 }
 
 h1.h1OverImg {
-    font-family: 'Helvetica Now Display', sans-serif;
     position: absolute;
     font-size: 3.0rem;
     font-weight: 300;
@@ -369,7 +368,6 @@ h1.h1OverImg span {
 }
 
 h1.h1OverImgLarge {
-    font-family: 'Helvetica Now Display', sans-serif;
     position: absolute;
     font-weight: 300;
     color: #FFFFFF;
