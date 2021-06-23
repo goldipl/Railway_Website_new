@@ -356,7 +356,7 @@ h1.h1OverImg {
     font-weight: 300;
     color: #FFFFFF;
     top: 60%;
-    left: 5%;
+    left: 1.5%;
     width: 40%;
     transform: translate(10%, -50%);
 }
@@ -1170,7 +1170,7 @@ img {
     }
     h1.h1OverImg {
         width: 90vw;
-        left: 0;
+        left: -8px;
         font-size: 1.2rem;
     }
 }
