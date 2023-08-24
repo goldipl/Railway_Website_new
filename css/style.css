@@ -62,7 +62,7 @@ h2 {
     content: '';
     width: 100px;
     height: 3px;
-    background: #a01916;
+    background: #9d2931;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -73,7 +73,7 @@ h2 {
     content: '';
     width: 100px;
     height: 3px;
-    background: #a01916;
+    background: #9d2931;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -344,8 +344,8 @@ h1.h1OverImg {
 }
 
 h1.h1OverImg span {
-    background-color: #a01916;
-    box-shadow: 0.5em 0 0 #a01916, -0.5em 0 0 #a01916;
+    background-color: #9d2931;
+    box-shadow: 0.5em 0 0 #9d2931, -0.5em 0 0 #9d2931;
     line-height: 145%;
     padding: 5px;
 }
@@ -366,8 +366,8 @@ h1.h1OverImgLarge {
 }
 
 h1.h1OverImgLarge span {
-    background-color: #a01916;
-    box-shadow: 0.5em 0 0 #a01916, -0.5em 0 0 #a01916;
+    background-color: #9d2931;
+    box-shadow: 0.5em 0 0 #9d2931, -0.5em 0 0 #9d2931;
     line-height: 140%;
     padding: 5px;
 }
@@ -412,7 +412,7 @@ section p {
     height: 8px;
     margin-right: 10px;
     margin-bottom: 1px;
-    background-color: #a01916;
+    background-color: #9d2931;
 }
 
 .button01 {
@@ -430,7 +430,7 @@ section p {
     cursor: pointer;
     text-decoration: none;
     color: #000000;
-    border: 1px solid #a01916;
+    border: 1px solid #9d2931;
     width: 202px;
 }
 
@@ -449,7 +449,7 @@ section p {
     cursor: pointer;
     text-decoration: none;
     color: #000000;
-    border: 1px solid #a01916;
+    border: 1px solid #9d2931;
     width: 202px;
 }
 
@@ -476,7 +476,7 @@ section p {
     right: -100%;
     width: 100%;
     height: 0.3rem;
-    background-color: #a01916;
+    background-color: #9d2931;
     transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
@@ -490,7 +490,7 @@ section p {
     right: -100%;
     width: 100%;
     height: 0.2rem;
-    background-color: #a01916;
+    background-color: #9d2931;
     transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -webkit-transition: .7s cubic-bezier(0, 1.8, 1, 1);
     -moz-transition: .7s cubic-bezier(0, 1.8, 1, 1);
@@ -533,7 +533,7 @@ section p {
     height: 12px;
     margin-right: 10px;
     margin-bottom: 2px;
-    background-color: #a01916;
+    background-color: #9d2931;
 }
 
 .bodyLock {
@@ -640,7 +640,7 @@ footer {
 
 .footerSection {
     background: none;
-    background-color: #a01916;
+    background-color: #9d2931;
     color: #FFFFFF;
 }
 
@@ -712,7 +712,7 @@ img {
 }
 
 .contCert:hover {
-    border: 3px solid #a01916;
+    border: 3px solid #9d2931;
 }
 
 .centered {
@@ -823,7 +823,7 @@ img {
 }
 
 .peopleLabels .peopleitem:hover {
-    border: 2px solid #a01916;
+    border: 2px solid #9d2931;
 }
 
 .peopleLabels_Text p {
@@ -880,7 +880,7 @@ img {
 .management .strongName::after {
     content: '';
     display: block;
-    border: 0.5px solid #a01916;
+    border: 0.5px solid #9d2931;
     width: 55vw;
     margin-top: 10px;
     left: 0;
@@ -915,7 +915,7 @@ img {
     margin: 1%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 10px;
-    border: 2px solid #a01916;
+    border: 2px solid #9d2931;
 }
 
 .prizeLabels_Text p {
