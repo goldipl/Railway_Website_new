@@ -19,11 +19,12 @@ expandListButton.forEach((button) => {
 });
 
 // Closing hamburger menu after clicking anchor href link
-
-
 anchorButton.forEach((button) => {
     button.addEventListener("click", () => {
         menuButton.classList.remove("open");
         menuItems.classList.remove("open");
     });
 });
+
+// Footer Year
+document.querySelector("span.footerYear").innerHTML = new Date().getFullYear();
