@@ -91,7 +91,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.6rem 2.0rem;
+    padding: 0 2.0rem;
     z-index: 999;
     line-height: 100%;
 }
@@ -233,28 +233,17 @@ a.first {
 /* === Logo with Media Queries === */
 
 .imglogo {
-    height: 54px;
+    height: 72px;
 }
 
 @media (max-width: 1000px) {
     .imglogo {
-        height: 42px;
-        margin-left: -24px;
-    }
-}
-
-@media (max-width: 375px) {
-    .imglogo {
-        height: 38px;
+        height: 60px;
         margin-left: -24px;
     }
 }
 
 @media (max-width: 340px) {
-    .imglogo {
-        height: 32px;
-        margin-left: -24px;
-    }
     .menuList li a {
         font-size: 1.1rem;
         line-height: 1.1rem;
@@ -1158,7 +1147,7 @@ img {
         width: 90%;
     }
     .nav {
-        padding: 1.0rem 2.0rem;
+        padding: 0 2.0rem;
     }
     h1.h1OverImg {
         width: 60%;
