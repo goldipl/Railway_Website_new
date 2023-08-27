@@ -1268,3 +1268,36 @@ img {
         top: 75%;
     }
 }
+
+/* Animations */
+.fade-animation01 {
+    animation: ease-in 0.8s fade-animation01;
+}
+.zoom-animation {
+    animation: ease-in 1.5s zoom-animation;
+}
+
+@keyframes fade-animation01 {
+    0% {
+        left: -20%;
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.2;
+    }
+    100% {
+        left: 1.5%;
+        opacity: 1;
+    }
+}
+
+@keyframes zoom-animation {
+    0% {
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
