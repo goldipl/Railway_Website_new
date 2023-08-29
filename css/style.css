@@ -1205,6 +1205,9 @@ img {
         width: 60%;
         line-height: 170%;
     }
+    .footerCopyright {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 790px) {
