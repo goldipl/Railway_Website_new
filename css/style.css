@@ -111,7 +111,6 @@ h2 {
 }
 
 .menuList li {
-    padding: 1.0rem 1.0rem;
     transition: 0.2s linear;
 }
 
@@ -130,6 +129,7 @@ h2 {
 
 a.first {
     font-weight: 500;
+    padding: 1.0rem 1.0rem;
 }
 
 
@@ -1033,6 +1033,7 @@ img {
     }
     .menuList li {
         margin: 15px 10px;
+        padding: 1.0rem 1.0rem;
     }
     .menuList li a {
         padding: 0 1rem;
